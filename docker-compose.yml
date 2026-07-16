@@ -77,7 +77,7 @@ services:
       SPRING_PROFILES_ACTIVE: mysql
       MYSQL_URL: jdbc:mysql://mysql:3306/petclinic
       MYSQL_USER: petclinic
-      MYSQL_PASS: petclinic
+      # MYSQL_PASS: petclinic
 
   mysql:
     image: mysql:9.5
